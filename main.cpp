@@ -456,7 +456,8 @@ struct Ball{
             
             for(int i=0;i<18;i++){
                 
-                if((( x<holes[i].x+0.9)&&( x>holes[i].x-0.9))&&(( z<holes[i].z+0.9)&&(z>holes[i].z-0.9))){
+                if(((x<holes[i].x+0.9) && (x>holes[i].x-0.9)) && 
+                   ((z<holes[i].z+0.9) && (z>holes[i].z-0.9))){
                     
                     
                     if(holes[i].finish){
